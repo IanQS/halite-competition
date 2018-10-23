@@ -1,3 +1,3 @@
-/home/itq/Desktop/Projects/halite/CMakeFiles/rebuild_cache.dir
-/home/itq/Desktop/Projects/halite/CMakeFiles/MyBot.dir
-/home/itq/Desktop/Projects/halite/CMakeFiles/edit_cache.dir
+/home/itq/CLionProjects/halite-competition/CMakeFiles/rebuild_cache.dir
+/home/itq/CLionProjects/halite-competition/CMakeFiles/MyBot.dir
+/home/itq/CLionProjects/halite-competition/CMakeFiles/edit_cache.dir

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/itq/Desktop/Projects/halite
+CMAKE_SOURCE_DIR = /home/itq/CLionProjects/halite-competition
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/itq/Desktop/Projects/halite
+CMAKE_BINARY_DIR = /home/itq/CLionProjects/halite-competition
 
 # Include any dependencies generated for this target.
 include CMakeFiles/MyBot.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/MyBot.dir/flags.make
 
 CMakeFiles/MyBot.dir/hlt/command.cpp.o: CMakeFiles/MyBot.dir/flags.make
 CMakeFiles/MyBot.dir/hlt/command.cpp.o: hlt/command.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/itq/Desktop/Projects/halite/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MyBot.dir/hlt/command.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyBot.dir/hlt/command.cpp.o -c /home/itq/Desktop/Projects/halite/hlt/command.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/itq/CLionProjects/halite-competition/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MyBot.dir/hlt/command.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyBot.dir/hlt/command.cpp.o -c /home/itq/CLionProjects/halite-competition/hlt/command.cpp
 
 CMakeFiles/MyBot.dir/hlt/command.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyBot.dir/hlt/command.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/itq/Desktop/Projects/halite/hlt/command.cpp > CMakeFiles/MyBot.dir/hlt/command.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/itq/CLionProjects/halite-competition/hlt/command.cpp > CMakeFiles/MyBot.dir/hlt/command.cpp.i
 
 CMakeFiles/MyBot.dir/hlt/command.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyBot.dir/hlt/command.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/itq/Desktop/Projects/halite/hlt/command.cpp -o CMakeFiles/MyBot.dir/hlt/command.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/itq/CLionProjects/halite-competition/hlt/command.cpp -o CMakeFiles/MyBot.dir/hlt/command.cpp.s
 
 CMakeFiles/MyBot.dir/hlt/command.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/MyBot.dir/hlt/command.cpp.o.provides.build: CMakeFiles/MyBot.dir/hlt/
 
 CMakeFiles/MyBot.dir/hlt/constants.cpp.o: CMakeFiles/MyBot.dir/flags.make
 CMakeFiles/MyBot.dir/hlt/constants.cpp.o: hlt/constants.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/itq/Desktop/Projects/halite/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MyBot.dir/hlt/constants.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyBot.dir/hlt/constants.cpp.o -c /home/itq/Desktop/Projects/halite/hlt/constants.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/itq/CLionProjects/halite-competition/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MyBot.dir/hlt/constants.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyBot.dir/hlt/constants.cpp.o -c /home/itq/CLionProjects/halite-competition/hlt/constants.cpp
 
 CMakeFiles/MyBot.dir/hlt/constants.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyBot.dir/hlt/constants.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/itq/Desktop/Projects/halite/hlt/constants.cpp > CMakeFiles/MyBot.dir/hlt/constants.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/itq/CLionProjects/halite-competition/hlt/constants.cpp > CMakeFiles/MyBot.dir/hlt/constants.cpp.i
 
 CMakeFiles/MyBot.dir/hlt/constants.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyBot.dir/hlt/constants.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/itq/Desktop/Projects/halite/hlt/constants.cpp -o CMakeFiles/MyBot.dir/hlt/constants.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/itq/CLionProjects/halite-competition/hlt/constants.cpp -o CMakeFiles/MyBot.dir/hlt/constants.cpp.s
 
 CMakeFiles/MyBot.dir/hlt/constants.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/MyBot.dir/hlt/constants.cpp.o.provides.build: CMakeFiles/MyBot.dir/hl
 
 CMakeFiles/MyBot.dir/hlt/dropoff.cpp.o: CMakeFiles/MyBot.dir/flags.make
 CMakeFiles/MyBot.dir/hlt/dropoff.cpp.o: hlt/dropoff.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/itq/Desktop/Projects/halite/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/MyBot.dir/hlt/dropoff.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyBot.dir/hlt/dropoff.cpp.o -c /home/itq/Desktop/Projects/halite/hlt/dropoff.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/itq/CLionProjects/halite-competition/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/MyBot.dir/hlt/dropoff.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyBot.dir/hlt/dropoff.cpp.o -c /home/itq/CLionProjects/halite-competition/hlt/dropoff.cpp
 
 CMakeFiles/MyBot.dir/hlt/dropoff.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyBot.dir/hlt/dropoff.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/itq/Desktop/Projects/halite/hlt/dropoff.cpp > CMakeFiles/MyBot.dir/hlt/dropoff.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/itq/CLionProjects/halite-competition/hlt/dropoff.cpp > CMakeFiles/MyBot.dir/hlt/dropoff.cpp.i
 
 CMakeFiles/MyBot.dir/hlt/dropoff.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyBot.dir/hlt/dropoff.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/itq/Desktop/Projects/halite/hlt/dropoff.cpp -o CMakeFiles/MyBot.dir/hlt/dropoff.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/itq/CLionProjects/halite-competition/hlt/dropoff.cpp -o CMakeFiles/MyBot.dir/hlt/dropoff.cpp.s
 
 CMakeFiles/MyBot.dir/hlt/dropoff.cpp.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/MyBot.dir/hlt/dropoff.cpp.o.provides.build: CMakeFiles/MyBot.dir/hlt/
 
 CMakeFiles/MyBot.dir/hlt/game.cpp.o: CMakeFiles/MyBot.dir/flags.make
 CMakeFiles/MyBot.dir/hlt/game.cpp.o: hlt/game.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/itq/Desktop/Projects/halite/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/MyBot.dir/hlt/game.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyBot.dir/hlt/game.cpp.o -c /home/itq/Desktop/Projects/halite/hlt/game.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/itq/CLionProjects/halite-competition/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/MyBot.dir/hlt/game.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyBot.dir/hlt/game.cpp.o -c /home/itq/CLionProjects/halite-competition/hlt/game.cpp
 
 CMakeFiles/MyBot.dir/hlt/game.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyBot.dir/hlt/game.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/itq/Desktop/Projects/halite/hlt/game.cpp > CMakeFiles/MyBot.dir/hlt/game.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/itq/CLionProjects/halite-competition/hlt/game.cpp > CMakeFiles/MyBot.dir/hlt/game.cpp.i
 
 CMakeFiles/MyBot.dir/hlt/game.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyBot.dir/hlt/game.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/itq/Desktop/Projects/halite/hlt/game.cpp -o CMakeFiles/MyBot.dir/hlt/game.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/itq/CLionProjects/halite-competition/hlt/game.cpp -o CMakeFiles/MyBot.dir/hlt/game.cpp.s
 
 CMakeFiles/MyBot.dir/hlt/game.cpp.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/MyBot.dir/hlt/game.cpp.o.provides.build: CMakeFiles/MyBot.dir/hlt/gam
 
 CMakeFiles/MyBot.dir/hlt/game_map.cpp.o: CMakeFiles/MyBot.dir/flags.make
 CMakeFiles/MyBot.dir/hlt/game_map.cpp.o: hlt/game_map.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/itq/Desktop/Projects/halite/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/MyBot.dir/hlt/game_map.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyBot.dir/hlt/game_map.cpp.o -c /home/itq/Desktop/Projects/halite/hlt/game_map.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/itq/CLionProjects/halite-competition/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/MyBot.dir/hlt/game_map.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyBot.dir/hlt/game_map.cpp.o -c /home/itq/CLionProjects/halite-competition/hlt/game_map.cpp
 
 CMakeFiles/MyBot.dir/hlt/game_map.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyBot.dir/hlt/game_map.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/itq/Desktop/Projects/halite/hlt/game_map.cpp > CMakeFiles/MyBot.dir/hlt/game_map.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/itq/CLionProjects/halite-competition/hlt/game_map.cpp > CMakeFiles/MyBot.dir/hlt/game_map.cpp.i
 
 CMakeFiles/MyBot.dir/hlt/game_map.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyBot.dir/hlt/game_map.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/itq/Desktop/Projects/halite/hlt/game_map.cpp -o CMakeFiles/MyBot.dir/hlt/game_map.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/itq/CLionProjects/halite-competition/hlt/game_map.cpp -o CMakeFiles/MyBot.dir/hlt/game_map.cpp.s
 
 CMakeFiles/MyBot.dir/hlt/game_map.cpp.o.requires:
 
@@ -179,16 +179,16 @@ CMakeFiles/MyBot.dir/hlt/game_map.cpp.o.provides.build: CMakeFiles/MyBot.dir/hlt
 
 CMakeFiles/MyBot.dir/hlt/log.cpp.o: CMakeFiles/MyBot.dir/flags.make
 CMakeFiles/MyBot.dir/hlt/log.cpp.o: hlt/log.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/itq/Desktop/Projects/halite/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/MyBot.dir/hlt/log.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyBot.dir/hlt/log.cpp.o -c /home/itq/Desktop/Projects/halite/hlt/log.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/itq/CLionProjects/halite-competition/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/MyBot.dir/hlt/log.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyBot.dir/hlt/log.cpp.o -c /home/itq/CLionProjects/halite-competition/hlt/log.cpp
 
 CMakeFiles/MyBot.dir/hlt/log.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyBot.dir/hlt/log.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/itq/Desktop/Projects/halite/hlt/log.cpp > CMakeFiles/MyBot.dir/hlt/log.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/itq/CLionProjects/halite-competition/hlt/log.cpp > CMakeFiles/MyBot.dir/hlt/log.cpp.i
 
 CMakeFiles/MyBot.dir/hlt/log.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyBot.dir/hlt/log.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/itq/Desktop/Projects/halite/hlt/log.cpp -o CMakeFiles/MyBot.dir/hlt/log.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/itq/CLionProjects/halite-competition/hlt/log.cpp -o CMakeFiles/MyBot.dir/hlt/log.cpp.s
 
 CMakeFiles/MyBot.dir/hlt/log.cpp.o.requires:
 
@@ -203,16 +203,16 @@ CMakeFiles/MyBot.dir/hlt/log.cpp.o.provides.build: CMakeFiles/MyBot.dir/hlt/log.
 
 CMakeFiles/MyBot.dir/hlt/player.cpp.o: CMakeFiles/MyBot.dir/flags.make
 CMakeFiles/MyBot.dir/hlt/player.cpp.o: hlt/player.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/itq/Desktop/Projects/halite/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/MyBot.dir/hlt/player.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyBot.dir/hlt/player.cpp.o -c /home/itq/Desktop/Projects/halite/hlt/player.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/itq/CLionProjects/halite-competition/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/MyBot.dir/hlt/player.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyBot.dir/hlt/player.cpp.o -c /home/itq/CLionProjects/halite-competition/hlt/player.cpp
 
 CMakeFiles/MyBot.dir/hlt/player.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyBot.dir/hlt/player.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/itq/Desktop/Projects/halite/hlt/player.cpp > CMakeFiles/MyBot.dir/hlt/player.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/itq/CLionProjects/halite-competition/hlt/player.cpp > CMakeFiles/MyBot.dir/hlt/player.cpp.i
 
 CMakeFiles/MyBot.dir/hlt/player.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyBot.dir/hlt/player.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/itq/Desktop/Projects/halite/hlt/player.cpp -o CMakeFiles/MyBot.dir/hlt/player.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/itq/CLionProjects/halite-competition/hlt/player.cpp -o CMakeFiles/MyBot.dir/hlt/player.cpp.s
 
 CMakeFiles/MyBot.dir/hlt/player.cpp.o.requires:
 
@@ -227,16 +227,16 @@ CMakeFiles/MyBot.dir/hlt/player.cpp.o.provides.build: CMakeFiles/MyBot.dir/hlt/p
 
 CMakeFiles/MyBot.dir/hlt/ship.cpp.o: CMakeFiles/MyBot.dir/flags.make
 CMakeFiles/MyBot.dir/hlt/ship.cpp.o: hlt/ship.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/itq/Desktop/Projects/halite/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/MyBot.dir/hlt/ship.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyBot.dir/hlt/ship.cpp.o -c /home/itq/Desktop/Projects/halite/hlt/ship.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/itq/CLionProjects/halite-competition/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/MyBot.dir/hlt/ship.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyBot.dir/hlt/ship.cpp.o -c /home/itq/CLionProjects/halite-competition/hlt/ship.cpp
 
 CMakeFiles/MyBot.dir/hlt/ship.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyBot.dir/hlt/ship.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/itq/Desktop/Projects/halite/hlt/ship.cpp > CMakeFiles/MyBot.dir/hlt/ship.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/itq/CLionProjects/halite-competition/hlt/ship.cpp > CMakeFiles/MyBot.dir/hlt/ship.cpp.i
 
 CMakeFiles/MyBot.dir/hlt/ship.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyBot.dir/hlt/ship.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/itq/Desktop/Projects/halite/hlt/ship.cpp -o CMakeFiles/MyBot.dir/hlt/ship.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/itq/CLionProjects/halite-competition/hlt/ship.cpp -o CMakeFiles/MyBot.dir/hlt/ship.cpp.s
 
 CMakeFiles/MyBot.dir/hlt/ship.cpp.o.requires:
 
@@ -251,16 +251,16 @@ CMakeFiles/MyBot.dir/hlt/ship.cpp.o.provides.build: CMakeFiles/MyBot.dir/hlt/shi
 
 CMakeFiles/MyBot.dir/MyBot.cpp.o: CMakeFiles/MyBot.dir/flags.make
 CMakeFiles/MyBot.dir/MyBot.cpp.o: MyBot.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/itq/Desktop/Projects/halite/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/MyBot.dir/MyBot.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyBot.dir/MyBot.cpp.o -c /home/itq/Desktop/Projects/halite/MyBot.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/itq/CLionProjects/halite-competition/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/MyBot.dir/MyBot.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyBot.dir/MyBot.cpp.o -c /home/itq/CLionProjects/halite-competition/MyBot.cpp
 
 CMakeFiles/MyBot.dir/MyBot.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyBot.dir/MyBot.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/itq/Desktop/Projects/halite/MyBot.cpp > CMakeFiles/MyBot.dir/MyBot.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/itq/CLionProjects/halite-competition/MyBot.cpp > CMakeFiles/MyBot.dir/MyBot.cpp.i
 
 CMakeFiles/MyBot.dir/MyBot.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyBot.dir/MyBot.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/itq/Desktop/Projects/halite/MyBot.cpp -o CMakeFiles/MyBot.dir/MyBot.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/itq/CLionProjects/halite-competition/MyBot.cpp -o CMakeFiles/MyBot.dir/MyBot.cpp.s
 
 CMakeFiles/MyBot.dir/MyBot.cpp.o.requires:
 
@@ -299,7 +299,7 @@ MyBot: CMakeFiles/MyBot.dir/hlt/ship.cpp.o
 MyBot: CMakeFiles/MyBot.dir/MyBot.cpp.o
 MyBot: CMakeFiles/MyBot.dir/build.make
 MyBot: CMakeFiles/MyBot.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/itq/Desktop/Projects/halite/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable MyBot"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/itq/CLionProjects/halite-competition/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable MyBot"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MyBot.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -324,6 +324,6 @@ CMakeFiles/MyBot.dir/clean:
 .PHONY : CMakeFiles/MyBot.dir/clean
 
 CMakeFiles/MyBot.dir/depend:
-	cd /home/itq/Desktop/Projects/halite && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/itq/Desktop/Projects/halite /home/itq/Desktop/Projects/halite /home/itq/Desktop/Projects/halite /home/itq/Desktop/Projects/halite /home/itq/Desktop/Projects/halite/CMakeFiles/MyBot.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/itq/CLionProjects/halite-competition && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/itq/CLionProjects/halite-competition /home/itq/CLionProjects/halite-competition /home/itq/CLionProjects/halite-competition /home/itq/CLionProjects/halite-competition /home/itq/CLionProjects/halite-competition/CMakeFiles/MyBot.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/MyBot.dir/depend
 

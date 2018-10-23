@@ -14,8 +14,9 @@ namespace hlt {
         STILL = 'o',
     };
 
-    static const std::array<Direction, 4> ALL_CARDINALS = {
-        { Direction::NORTH, Direction::SOUTH, Direction::EAST, Direction::WEST }
+
+    static const std::array<Direction, 5> ALL_CARDINALS = {
+        { Direction::NORTH, Direction::SOUTH, Direction::EAST, Direction::WEST, Direction::STILL}
     };
 
     static Direction invert_direction(Direction direction) {
@@ -39,4 +40,6 @@ namespace hlt {
     static std::ostream& operator<<(std::ostream& out, const Direction& direction) {
         return out << static_cast<char>(direction);
     }
+
+
 }

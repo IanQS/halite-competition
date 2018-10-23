@@ -6,37 +6,39 @@
 
 #IncludeRegexTransform: 
 
-/home/itq/Desktop/Projects/halite/MyBot.cpp
+/home/itq/CLionProjects/halite-competition/MyBot.cpp
 hlt/game.hpp
-/home/itq/Desktop/Projects/halite/hlt/game.hpp
+/home/itq/CLionProjects/halite-competition/hlt/game.hpp
 hlt/constants.hpp
-/home/itq/Desktop/Projects/halite/hlt/constants.hpp
+/home/itq/CLionProjects/halite-competition/hlt/constants.hpp
 hlt/log.hpp
-/home/itq/Desktop/Projects/halite/hlt/log.hpp
+/home/itq/CLionProjects/halite-competition/hlt/log.hpp
 random
 -
 ctime
 -
+map
+-
 
-/home/itq/Desktop/Projects/halite/hlt/command.cpp
+/home/itq/CLionProjects/halite-competition/hlt/command.cpp
 command.hpp
-/home/itq/Desktop/Projects/halite/hlt/command.hpp
+/home/itq/CLionProjects/halite-competition/hlt/command.hpp
 iostream
 -
 
-/home/itq/Desktop/Projects/halite/hlt/command.hpp
+/home/itq/CLionProjects/halite-competition/hlt/command.hpp
 direction.hpp
-/home/itq/Desktop/Projects/halite/hlt/direction.hpp
+/home/itq/CLionProjects/halite-competition/hlt/direction.hpp
 types.hpp
-/home/itq/Desktop/Projects/halite/hlt/types.hpp
+/home/itq/CLionProjects/halite-competition/hlt/types.hpp
 string
 -
 
-/home/itq/Desktop/Projects/halite/hlt/constants.cpp
+/home/itq/CLionProjects/halite-competition/hlt/constants.cpp
 constants.hpp
-/home/itq/Desktop/Projects/halite/hlt/constants.hpp
+/home/itq/CLionProjects/halite-competition/hlt/constants.hpp
 log.hpp
-/home/itq/Desktop/Projects/halite/hlt/log.hpp
+/home/itq/CLionProjects/halite-competition/hlt/log.hpp
 unordered_map
 -
 sstream
@@ -44,73 +46,73 @@ sstream
 vector
 -
 
-/home/itq/Desktop/Projects/halite/hlt/constants.hpp
+/home/itq/CLionProjects/halite-competition/hlt/constants.hpp
 string
 -
 
-/home/itq/Desktop/Projects/halite/hlt/direction.hpp
+/home/itq/CLionProjects/halite-competition/hlt/direction.hpp
 log.hpp
-/home/itq/Desktop/Projects/halite/hlt/log.hpp
+/home/itq/CLionProjects/halite-competition/hlt/log.hpp
 ostream
 -
 array
 -
 
-/home/itq/Desktop/Projects/halite/hlt/dropoff.cpp
+/home/itq/CLionProjects/halite-competition/hlt/dropoff.cpp
 dropoff.hpp
-/home/itq/Desktop/Projects/halite/hlt/dropoff.hpp
+/home/itq/CLionProjects/halite-competition/hlt/dropoff.hpp
 input.hpp
-/home/itq/Desktop/Projects/halite/hlt/input.hpp
+/home/itq/CLionProjects/halite-competition/hlt/input.hpp
 
-/home/itq/Desktop/Projects/halite/hlt/dropoff.hpp
+/home/itq/CLionProjects/halite-competition/hlt/dropoff.hpp
 entity.hpp
-/home/itq/Desktop/Projects/halite/hlt/entity.hpp
+/home/itq/CLionProjects/halite-competition/hlt/entity.hpp
 memory
 -
 
-/home/itq/Desktop/Projects/halite/hlt/entity.hpp
+/home/itq/CLionProjects/halite-competition/hlt/entity.hpp
 types.hpp
-/home/itq/Desktop/Projects/halite/hlt/types.hpp
+/home/itq/CLionProjects/halite-competition/hlt/types.hpp
 position.hpp
-/home/itq/Desktop/Projects/halite/hlt/position.hpp
+/home/itq/CLionProjects/halite-competition/hlt/position.hpp
 
-/home/itq/Desktop/Projects/halite/hlt/game.cpp
+/home/itq/CLionProjects/halite-competition/hlt/game.cpp
 game.hpp
-/home/itq/Desktop/Projects/halite/hlt/game.hpp
+/home/itq/CLionProjects/halite-competition/hlt/game.hpp
 input.hpp
-/home/itq/Desktop/Projects/halite/hlt/input.hpp
+/home/itq/CLionProjects/halite-competition/hlt/input.hpp
 sstream
 -
 
-/home/itq/Desktop/Projects/halite/hlt/game.hpp
+/home/itq/CLionProjects/halite-competition/hlt/game.hpp
 game_map.hpp
-/home/itq/Desktop/Projects/halite/hlt/game_map.hpp
+/home/itq/CLionProjects/halite-competition/hlt/game_map.hpp
 player.hpp
-/home/itq/Desktop/Projects/halite/hlt/player.hpp
+/home/itq/CLionProjects/halite-competition/hlt/player.hpp
 types.hpp
-/home/itq/Desktop/Projects/halite/hlt/types.hpp
+/home/itq/CLionProjects/halite-competition/hlt/types.hpp
 vector
 -
 iostream
 -
 
-/home/itq/Desktop/Projects/halite/hlt/game_map.cpp
+/home/itq/CLionProjects/halite-competition/hlt/game_map.cpp
 game_map.hpp
-/home/itq/Desktop/Projects/halite/hlt/game_map.hpp
+/home/itq/CLionProjects/halite-competition/hlt/game_map.hpp
 input.hpp
-/home/itq/Desktop/Projects/halite/hlt/input.hpp
+/home/itq/CLionProjects/halite-competition/hlt/input.hpp
 
-/home/itq/Desktop/Projects/halite/hlt/game_map.hpp
+/home/itq/CLionProjects/halite-competition/hlt/game_map.hpp
 types.hpp
-/home/itq/Desktop/Projects/halite/hlt/types.hpp
+/home/itq/CLionProjects/halite-competition/hlt/types.hpp
 map_cell.hpp
-/home/itq/Desktop/Projects/halite/hlt/map_cell.hpp
+/home/itq/CLionProjects/halite-competition/hlt/map_cell.hpp
 vector
 -
 
-/home/itq/Desktop/Projects/halite/hlt/input.hpp
+/home/itq/CLionProjects/halite-competition/hlt/input.hpp
 log.hpp
-/home/itq/Desktop/Projects/halite/hlt/log.hpp
+/home/itq/CLionProjects/halite-competition/hlt/log.hpp
 string
 -
 iostream
@@ -118,9 +120,9 @@ iostream
 sstream
 -
 
-/home/itq/Desktop/Projects/halite/hlt/log.cpp
+/home/itq/CLionProjects/halite-competition/hlt/log.cpp
 log.hpp
-/home/itq/Desktop/Projects/halite/hlt/log.hpp
+/home/itq/CLionProjects/halite-competition/hlt/log.hpp
 fstream
 -
 iostream
@@ -130,69 +132,69 @@ vector
 chrono
 -
 
-/home/itq/Desktop/Projects/halite/hlt/log.hpp
+/home/itq/CLionProjects/halite-competition/hlt/log.hpp
 string
 -
 
-/home/itq/Desktop/Projects/halite/hlt/map_cell.hpp
+/home/itq/CLionProjects/halite-competition/hlt/map_cell.hpp
 types.hpp
-/home/itq/Desktop/Projects/halite/hlt/types.hpp
+/home/itq/CLionProjects/halite-competition/hlt/types.hpp
 position.hpp
-/home/itq/Desktop/Projects/halite/hlt/position.hpp
+/home/itq/CLionProjects/halite-competition/hlt/position.hpp
 ship.hpp
-/home/itq/Desktop/Projects/halite/hlt/ship.hpp
+/home/itq/CLionProjects/halite-competition/hlt/ship.hpp
 dropoff.hpp
-/home/itq/Desktop/Projects/halite/hlt/dropoff.hpp
+/home/itq/CLionProjects/halite-competition/hlt/dropoff.hpp
 
-/home/itq/Desktop/Projects/halite/hlt/player.cpp
+/home/itq/CLionProjects/halite-competition/hlt/player.cpp
 player.hpp
-/home/itq/Desktop/Projects/halite/hlt/player.hpp
+/home/itq/CLionProjects/halite-competition/hlt/player.hpp
 input.hpp
-/home/itq/Desktop/Projects/halite/hlt/input.hpp
+/home/itq/CLionProjects/halite-competition/hlt/input.hpp
 
-/home/itq/Desktop/Projects/halite/hlt/player.hpp
+/home/itq/CLionProjects/halite-competition/hlt/player.hpp
 types.hpp
-/home/itq/Desktop/Projects/halite/hlt/types.hpp
+/home/itq/CLionProjects/halite-competition/hlt/types.hpp
 shipyard.hpp
-/home/itq/Desktop/Projects/halite/hlt/shipyard.hpp
+/home/itq/CLionProjects/halite-competition/hlt/shipyard.hpp
 ship.hpp
-/home/itq/Desktop/Projects/halite/hlt/ship.hpp
+/home/itq/CLionProjects/halite-competition/hlt/ship.hpp
 dropoff.hpp
-/home/itq/Desktop/Projects/halite/hlt/dropoff.hpp
+/home/itq/CLionProjects/halite-competition/hlt/dropoff.hpp
 memory
 -
 unordered_map
 -
 
-/home/itq/Desktop/Projects/halite/hlt/position.hpp
+/home/itq/CLionProjects/halite-competition/hlt/position.hpp
 types.hpp
-/home/itq/Desktop/Projects/halite/hlt/types.hpp
+/home/itq/CLionProjects/halite-competition/hlt/types.hpp
 direction.hpp
-/home/itq/Desktop/Projects/halite/hlt/direction.hpp
+/home/itq/CLionProjects/halite-competition/hlt/direction.hpp
 iostream
 -
 
-/home/itq/Desktop/Projects/halite/hlt/ship.cpp
+/home/itq/CLionProjects/halite-competition/hlt/ship.cpp
 ship.hpp
-/home/itq/Desktop/Projects/halite/hlt/ship.hpp
+/home/itq/CLionProjects/halite-competition/hlt/ship.hpp
 input.hpp
-/home/itq/Desktop/Projects/halite/hlt/input.hpp
+/home/itq/CLionProjects/halite-competition/hlt/input.hpp
 
-/home/itq/Desktop/Projects/halite/hlt/ship.hpp
+/home/itq/CLionProjects/halite-competition/hlt/ship.hpp
 entity.hpp
-/home/itq/Desktop/Projects/halite/hlt/entity.hpp
+/home/itq/CLionProjects/halite-competition/hlt/entity.hpp
 constants.hpp
-/home/itq/Desktop/Projects/halite/hlt/constants.hpp
+/home/itq/CLionProjects/halite-competition/hlt/constants.hpp
 command.hpp
-/home/itq/Desktop/Projects/halite/hlt/command.hpp
+/home/itq/CLionProjects/halite-competition/hlt/command.hpp
 memory
 -
 
-/home/itq/Desktop/Projects/halite/hlt/shipyard.hpp
+/home/itq/CLionProjects/halite-competition/hlt/shipyard.hpp
 entity.hpp
-/home/itq/Desktop/Projects/halite/hlt/entity.hpp
+/home/itq/CLionProjects/halite-competition/hlt/entity.hpp
 command.hpp
-/home/itq/Desktop/Projects/halite/hlt/command.hpp
+/home/itq/CLionProjects/halite-competition/hlt/command.hpp
 
-/home/itq/Desktop/Projects/halite/hlt/types.hpp
+/home/itq/CLionProjects/halite-competition/hlt/types.hpp
 
