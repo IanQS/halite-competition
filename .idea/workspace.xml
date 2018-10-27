@@ -12,28 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d9abb7f-24d1-405c-8477-6a859730594f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/halite-competition.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/halite-competition.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeFiles/MyBot.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/MyBot.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeFiles/MyBot.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/MyBot.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeFiles/MyBot.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/MyBot.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeFiles/MyBot.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/MyBot.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeFiles/MyBot.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/MyBot.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeFiles/MyBot.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/MyBot.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/TargetDirectories.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyBot.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/MyBot.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/game-overview.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/game-overview.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/halite" beforeDir="false" afterPath="$PROJECT_DIR$/halite" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hlt/direction.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/hlt/direction.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hlt/position.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/hlt/position.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/replays/README.md" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/CMakeFiles/" />
@@ -80,14 +59,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="1970" />
+          <entry key="cpp" value="2009" />
           <entry key="dummy" value="37" />
           <entry key="hpp" value="449" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="ObjectiveC" value="2419" />
+          <entry key="ObjectiveC" value="2458" />
           <entry key="PLAIN_TEXT" value="37" />
         </counts>
       </usages-collector>
@@ -124,8 +103,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/MyBot.cpp">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="319">
-                  <caret line="62" column="24" selection-start-line="62" selection-start-column="24" selection-end-line="62" selection-end-column="24" />
+                <state relative-caret-position="649">
+                  <caret line="72" column="37" selection-start-line="72" selection-start-column="37" selection-end-line="72" selection-end-column="37" />
                   <folding>
                     <element signature="e#0#23#0" expanded="true" />
                   </folding>
@@ -141,7 +120,7 @@
             <entry file="file://$PROJECT_DIR$/MyBot.cpp">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="554">
-                  <caret line="74" selection-start-line="74" selection-end-line="74" />
+                  <caret line="78" selection-start-line="78" selection-end-line="78" />
                   <folding>
                     <element signature="e#0#23#0" expanded="true" />
                   </folding>
@@ -315,12 +294,12 @@
       <workItem from="1540655668390" duration="217000" />
       <workItem from="1540655895159" duration="606000" />
       <workItem from="1540657558704" duration="190000" />
-      <workItem from="1540658508483" duration="13763000" />
+      <workItem from="1540658508483" duration="14302000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14946000" />
+    <option name="totallyTimeSpent" value="15485000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="57" y="25" width="1863" height="1055" extended-state="6" />
@@ -533,8 +512,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MyBot.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="62" column="24" selection-start-line="62" selection-start-column="24" selection-end-line="62" selection-end-column="24" />
+        <state relative-caret-position="649">
+          <caret line="72" column="37" selection-start-line="72" selection-start-column="37" selection-end-line="72" selection-end-column="37" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>

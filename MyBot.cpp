@@ -67,10 +67,14 @@ int main(int argc, char* argv[]) {
                         }
                     }
                 }
-
-
             }
-            command_queue.push_back(ship->move(best_move));
+
+            if (ship->is_full()){
+                ship->make_dropoff();
+            } else{
+                command_queue.push_back(ship->move(best_move));
+            }
+
         }
 
         if (
