@@ -19,6 +19,10 @@ namespace hlt {
             return halite >= constants::MAX_HALITE;
         }
 
+        bool has_enough(int limit) const {
+            return halite >= limit;
+        }
+
         Command make_dropoff() const {
             return hlt::command::transform_ship_into_dropoff_site(id);
         }

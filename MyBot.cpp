@@ -4,7 +4,6 @@
 
 #include <random>
 #include <ctime>
-#include <map>
 
 using namespace std;
 using namespace hlt;
@@ -35,46 +34,48 @@ int main(int argc, char* argv[]) {
     for (;;) {
         game.update_frame();
         shared_ptr<Player> me = game.me;
+
         unique_ptr<GameMap>& game_map = game.game_map;
 
         vector<Command> command_queue;
-
+        std::unordered_map<shared_ptr<Ship>, bool> ship_status;  // default initialized False
 
         // Game logic
-        std::map<shared_ptr<Ship>, Position> all_positions;
+
+
         for (const auto& ship_iterator : me->ships) {
             shared_ptr<Ship> ship = ship_iterator.second;
 
 
-            // Create a mapping of all the
-            int max_halite = 0;
-            Direction best_move = Direction::STILL;
-            for (const auto& dir: ALL_CARDINALS){
-                // get the halite at each spot
-                Position pos_after = ship->position.directional_offset(dir);
-                all_positions[ship] = pos_after;
-                int halite_contender = game_map->at(pos_after)->halite;
-
-
-                // Make sure we're not running into one another.
-                // Since we iterate all the options, then make sure there are no collisions
-                // THEN assign, we are sure that the value at the very end is as close to optimal
-                for (auto it=all_positions.begin(); it!=all_positions.end(); ++it){
-                    if ((it->first != ship) && (it->second != pos_after)){
-                        if (halite_contender >= max_halite){
-                            max_halite = halite_contender;
-                            best_move = dir;
-                        }
-                    }
+            if ((ship_status[ship]) || (ship->has_enough(500))){
+                if (ship->halite != 0){
+                    Direction go_back = game_map->naive_navigate(ship, me->shipyard->position);
+                    command_queue.push_back(ship->move(go_back));
+                    ship_status[ship] = true;
+                    continue;
+                } else {
+                    ship_status[ship] = false;
+                    // go on to gather below
                 }
             }
 
-            if (ship->is_full()){
-                ship->make_dropoff();
-            } else{
-                command_queue.push_back(ship->move(best_move));
+            int max_halite = 0;
+            Direction best_safe_move = Direction::STILL;
+
+            for (const auto& dir: ALL_CARDINALS){
+                // get the halite at each spot
+                Position pos_after = ship->position.directional_offset(dir);
+                int halite_contender = game_map->at(pos_after)->halite;
+
+
+                // Track the best move and make it safe
+                if (halite_contender >= max_halite){
+                    max_halite = halite_contender;
+                    best_safe_move = game_map->naive_navigate(ship, pos_after);
+                }
             }
 
+            command_queue.push_back(ship->move(best_safe_move));
         }
 
         if (
@@ -82,7 +83,10 @@ int main(int argc, char* argv[]) {
             me->halite >= constants::SHIP_COST &&
             !game_map->at(me->shipyard)->is_occupied())
         {
-            command_queue.push_back(me->shipyard->spawn());
+            if (me->ships.size() == 0){
+                command_queue.push_back(me->shipyard->spawn());
+            }
+
         }
 
 
