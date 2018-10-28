@@ -2,6 +2,7 @@
 
 #include "types.hpp"
 #include "direction.hpp"
+#include "hlt/log.hpp"
 
 #include <iostream>
 
@@ -28,21 +29,21 @@ namespace hlt {
             return std::to_string(x) + ':' + std::to_string(y);
         }
 
-        Position directional_offset(Direction d) const {
+        Position directional_offset(Direction d, int scale = 1) const {
             auto dx = 0;
             auto dy = 0;
             switch (d) {
                 case Direction::NORTH:
-                    dy = -1;
+                    dy = -1 * scale;
                     break;
                 case Direction::SOUTH:
-                    dy = 1;
+                    dy = 1 * scale;
                     break;
                 case Direction::EAST:
-                    dx = 1;
+                    dx = 1 * scale;
                     break;
                 case Direction::WEST:
-                    dx = -1;
+                    dx = -1 * scale;
                     break;
                 case Direction::STILL:
                     // No move

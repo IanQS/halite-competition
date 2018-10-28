@@ -36,6 +36,7 @@ CMakeFiles/MyBot.dir/hlt/dropoff.cpp.o
  /home/itq/CLionProjects/halite-competition/hlt/log.hpp
  /home/itq/CLionProjects/halite-competition/hlt/position.hpp
  /home/itq/CLionProjects/halite-competition/hlt/types.hpp
+ hlt/log.hpp
 CMakeFiles/MyBot.dir/hlt/game.cpp.o
  /home/itq/CLionProjects/halite-competition/hlt/command.hpp
  /home/itq/CLionProjects/halite-competition/hlt/constants.hpp
@@ -53,6 +54,7 @@ CMakeFiles/MyBot.dir/hlt/game.cpp.o
  /home/itq/CLionProjects/halite-competition/hlt/ship.hpp
  /home/itq/CLionProjects/halite-competition/hlt/shipyard.hpp
  /home/itq/CLionProjects/halite-competition/hlt/types.hpp
+ hlt/log.hpp
 CMakeFiles/MyBot.dir/hlt/game_map.cpp.o
  /home/itq/CLionProjects/halite-competition/hlt/command.hpp
  /home/itq/CLionProjects/halite-competition/hlt/constants.hpp
@@ -67,6 +69,7 @@ CMakeFiles/MyBot.dir/hlt/game_map.cpp.o
  /home/itq/CLionProjects/halite-competition/hlt/position.hpp
  /home/itq/CLionProjects/halite-competition/hlt/ship.hpp
  /home/itq/CLionProjects/halite-competition/hlt/types.hpp
+ hlt/log.hpp
 CMakeFiles/MyBot.dir/hlt/log.cpp.o
  /home/itq/CLionProjects/halite-competition/hlt/log.cpp
  /home/itq/CLionProjects/halite-competition/hlt/log.hpp
@@ -84,6 +87,7 @@ CMakeFiles/MyBot.dir/hlt/player.cpp.o
  /home/itq/CLionProjects/halite-competition/hlt/ship.hpp
  /home/itq/CLionProjects/halite-competition/hlt/shipyard.hpp
  /home/itq/CLionProjects/halite-competition/hlt/types.hpp
+ hlt/log.hpp
 CMakeFiles/MyBot.dir/hlt/ship.cpp.o
  /home/itq/CLionProjects/halite-competition/hlt/command.hpp
  /home/itq/CLionProjects/halite-competition/hlt/constants.hpp
@@ -95,3 +99,4 @@ CMakeFiles/MyBot.dir/hlt/ship.cpp.o
  /home/itq/CLionProjects/halite-competition/hlt/ship.cpp
  /home/itq/CLionProjects/halite-competition/hlt/ship.hpp
  /home/itq/CLionProjects/halite-competition/hlt/types.hpp
+ hlt/log.hpp

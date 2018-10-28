@@ -86,6 +86,37 @@ namespace hlt {
             return Direction::STILL;
         }
 
+        Direction greedy_safe_move(const std::shared_ptr<Ship>& ship, const int scale = 1,
+                const int min_halite = 250){
+            /* Heuristically, it's better to drain the shit out of a cell first, then move away
+             * as this reduces the cost (10% of available resources in origin cell)
+             *
+             */
+            // First, check that it's not worth staying in the current cell:
+            // Gain: 25% of halite available in cell
+            if (this->at(ship->position)->halite >= min_halite){
+                return Direction::STILL;
+            }
+
+            int max_halite = 0;
+            Direction best_safe_move = Direction::STILL;
+            // If not worth, move
+            // Cost: 10% of halite available at turn origin cell is deducted from ship’s current halite
+            for (const auto& dir: ALL_CARDINALS){
+                // get the halite at each spot
+                Position pos_after = ship->position.directional_offset(dir, scale);
+                int halite_contender = this->at(pos_after)->halite;
+
+
+                // Track the best move and make it safe
+                if (halite_contender >= max_halite){
+                    max_halite = halite_contender;
+                    best_safe_move = this->naive_navigate(ship, pos_after);
+                }
+            }
+            return best_safe_move;
+        }
+
         void _update();
         static std::unique_ptr<GameMap> _generate();
     };

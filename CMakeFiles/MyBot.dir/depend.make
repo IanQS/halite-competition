@@ -35,6 +35,7 @@ CMakeFiles/MyBot.dir/hlt/dropoff.cpp.o: hlt/input.hpp
 CMakeFiles/MyBot.dir/hlt/dropoff.cpp.o: hlt/log.hpp
 CMakeFiles/MyBot.dir/hlt/dropoff.cpp.o: hlt/position.hpp
 CMakeFiles/MyBot.dir/hlt/dropoff.cpp.o: hlt/types.hpp
+CMakeFiles/MyBot.dir/hlt/dropoff.cpp.o: hlt/log.hpp
 
 CMakeFiles/MyBot.dir/hlt/game.cpp.o: hlt/command.hpp
 CMakeFiles/MyBot.dir/hlt/game.cpp.o: hlt/constants.hpp
@@ -52,6 +53,7 @@ CMakeFiles/MyBot.dir/hlt/game.cpp.o: hlt/position.hpp
 CMakeFiles/MyBot.dir/hlt/game.cpp.o: hlt/ship.hpp
 CMakeFiles/MyBot.dir/hlt/game.cpp.o: hlt/shipyard.hpp
 CMakeFiles/MyBot.dir/hlt/game.cpp.o: hlt/types.hpp
+CMakeFiles/MyBot.dir/hlt/game.cpp.o: hlt/log.hpp
 
 CMakeFiles/MyBot.dir/hlt/game_map.cpp.o: hlt/command.hpp
 CMakeFiles/MyBot.dir/hlt/game_map.cpp.o: hlt/constants.hpp
@@ -66,6 +68,7 @@ CMakeFiles/MyBot.dir/hlt/game_map.cpp.o: hlt/map_cell.hpp
 CMakeFiles/MyBot.dir/hlt/game_map.cpp.o: hlt/position.hpp
 CMakeFiles/MyBot.dir/hlt/game_map.cpp.o: hlt/ship.hpp
 CMakeFiles/MyBot.dir/hlt/game_map.cpp.o: hlt/types.hpp
+CMakeFiles/MyBot.dir/hlt/game_map.cpp.o: hlt/log.hpp
 
 CMakeFiles/MyBot.dir/hlt/log.cpp.o: hlt/log.cpp
 CMakeFiles/MyBot.dir/hlt/log.cpp.o: hlt/log.hpp
@@ -83,6 +86,7 @@ CMakeFiles/MyBot.dir/hlt/player.cpp.o: hlt/position.hpp
 CMakeFiles/MyBot.dir/hlt/player.cpp.o: hlt/ship.hpp
 CMakeFiles/MyBot.dir/hlt/player.cpp.o: hlt/shipyard.hpp
 CMakeFiles/MyBot.dir/hlt/player.cpp.o: hlt/types.hpp
+CMakeFiles/MyBot.dir/hlt/player.cpp.o: hlt/log.hpp
 
 CMakeFiles/MyBot.dir/hlt/ship.cpp.o: hlt/command.hpp
 CMakeFiles/MyBot.dir/hlt/ship.cpp.o: hlt/constants.hpp
@@ -94,4 +98,5 @@ CMakeFiles/MyBot.dir/hlt/ship.cpp.o: hlt/position.hpp
 CMakeFiles/MyBot.dir/hlt/ship.cpp.o: hlt/ship.cpp
 CMakeFiles/MyBot.dir/hlt/ship.cpp.o: hlt/ship.hpp
 CMakeFiles/MyBot.dir/hlt/ship.cpp.o: hlt/types.hpp
+CMakeFiles/MyBot.dir/hlt/ship.cpp.o: hlt/log.hpp
 

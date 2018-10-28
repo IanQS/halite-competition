@@ -169,6 +169,8 @@ types.hpp
 /home/itq/CLionProjects/halite-competition/hlt/types.hpp
 direction.hpp
 /home/itq/CLionProjects/halite-competition/hlt/direction.hpp
+hlt/log.hpp
+/home/itq/CLionProjects/halite-competition/hlt/hlt/log.hpp
 iostream
 -
 
@@ -195,4 +197,8 @@ command.hpp
 /home/itq/CLionProjects/halite-competition/hlt/command.hpp
 
 /home/itq/CLionProjects/halite-competition/hlt/types.hpp
+
+hlt/log.hpp
+string
+-
 
