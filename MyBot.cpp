@@ -1,6 +1,7 @@
 #include "hlt/game.hpp"
 #include "hlt/constants.hpp"
 #include "hlt/log.hpp"
+#include "Eigen/Dense"
 
 #include <random>
 #include <ctime>
@@ -69,6 +70,12 @@ int main(int argc, char* argv[]) {
             command_queue.push_back(ship->move(greedy_safe));
         }
 
+        // Depot logic
+
+
+
+
+        // Construct new ships
         if (
             game.turn_number <= 200 &&
             me->halite >= constants::SHIP_COST &&

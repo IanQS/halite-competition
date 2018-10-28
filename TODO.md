@@ -15,6 +15,11 @@
 
 - [X] increase the threshold before they flip
     - by the time they get back the amt is very low
+    
+    
+- [ ] heuristics
+    - running into issue of 
+    > entity X was directed to use Y halite to move DIRECTION, but only Z halite was available
 
 ## Pre-planning
 
@@ -27,4 +32,4 @@
 
 - [ ] compute graph of all visited points for min cost to return home
 
-- [ ] If not cost efficient at all, and is close to many others, convert into depot
+- [ ] If not cost efficient at all, and is close to many others, convert into depot (use Eigen)
