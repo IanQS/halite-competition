@@ -20,6 +20,10 @@
 - [ ] heuristics
     - running into issue of 
     > entity X was directed to use Y halite to move DIRECTION, but only Z halite was available
+    
+    
+- [ ] Don't spawn too many
+    - dependent on map size?
 
 ## Pre-planning
 
