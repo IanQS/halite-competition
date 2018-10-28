@@ -24,6 +24,13 @@ unsigned int get_seed(int argc, char* argv[]){
 }
 
 int main(int argc, char* argv[]) {
+    // CONSTANTS
+
+    const int JOURNEY_BACK_CONST = 450;
+    const int JOURNEY_OUT_CONST = 250;
+    const int TURN_NUM_CHECK = 200;
+
+
     unsigned  int rng_seed = get_seed(argc, argv);
     mt19937 rng(rng_seed);
 
@@ -35,11 +42,12 @@ int main(int argc, char* argv[]) {
 
     log::log("Successfully created bot! My Player ID is " + to_string(game.my_id) + ". Bot rng seed is " + to_string(rng_seed) + ".");
 
+
     for (;;) {
         // journey_back_threshold encourages them to move further away as time goes on
         // build depot then
-        int journey_back_threshold = 450 + game.turn_number;
-        int journey_out_threshold = max(game.turn_number - 250, 0);
+        int journey_back_threshold = JOURNEY_BACK_CONST + game.turn_number;
+        int journey_out_threshold = max(game.turn_number - JOURNEY_OUT_CONST, 0);
 
         game.update_frame();
         shared_ptr<Player> me = game.me;
@@ -49,8 +57,19 @@ int main(int argc, char* argv[]) {
         vector<Command> command_queue;
         std::unordered_map<shared_ptr<Ship>, bool> ship_status;  // default initialized False
 
+        // Depot logic
+        // this way, we can remove a key-value from the ships_in_play (if converted to depot or smth)
+        std::unordered_map<EntityId, std::shared_ptr<Ship>> ships_in_play = me->ships;
+
+        log::log("Shipyards: {}" + me->shipyard->position.to_string());
+        for (const auto& dropoff: me->dropoffs){
+            log::log("Depots: {}" + dropoff.second->position.to_string());
+        }
+
+
+
         // Game logic
-        for (const auto& ship_iterator : me->ships) {
+        for (const auto& ship_iterator : ships_in_play) {
             shared_ptr<Ship> ship = ship_iterator.second;
 
 
@@ -70,14 +89,14 @@ int main(int argc, char* argv[]) {
             command_queue.push_back(ship->move(greedy_safe));
         }
 
-        // Depot logic
+
 
 
 
 
         // Construct new ships
         if (
-            game.turn_number <= 200 &&
+            game.turn_number <= TURN_NUM_CHECK &&
             me->halite >= constants::SHIP_COST &&
             !game_map->at(me->shipyard)->is_occupied())
         {

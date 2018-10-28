@@ -45,6 +45,7 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/home/itq/CLionProjects/halite-competition/hlt"/>
+					<Add directory="/home/itq/CLionProjects/halite-competition/Eigen"/>
 					<Add directory="/home/itq/CLionProjects/halite-competition"/>
 				</Compiler>
 				<MakeCommands>
@@ -62,6 +63,7 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/home/itq/CLionProjects/halite-competition/hlt"/>
+					<Add directory="/home/itq/CLionProjects/halite-competition/Eigen"/>
 					<Add directory="/home/itq/CLionProjects/halite-competition"/>
 				</Compiler>
 				<MakeCommands>
@@ -72,6 +74,822 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Cholesky/LDLT.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Cholesky/LLT.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Cholesky/LLT_LAPACKE.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/CholmodSupport/CholmodSupport.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/Array.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/ArrayBase.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/ArrayWrapper.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/Assign.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/AssignEvaluator.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/Assign_MKL.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/BandMatrix.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/Block.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/BooleanRedux.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/CommaInitializer.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/ConditionEstimator.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/CoreEvaluators.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/CoreIterators.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/CwiseBinaryOp.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/CwiseNullaryOp.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/CwiseTernaryOp.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/CwiseUnaryOp.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/CwiseUnaryView.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/DenseBase.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/DenseCoeffsBase.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/DenseStorage.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/Diagonal.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/DiagonalMatrix.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/DiagonalProduct.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/Dot.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/EigenBase.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/ForceAlignedAccess.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/Fuzzy.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/GeneralProduct.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/GenericPacketMath.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/GlobalFunctions.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/IO.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/Inverse.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/Map.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/MapBase.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/MathFunctions.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/MathFunctionsImpl.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/Matrix.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/MatrixBase.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/NestByValue.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/NoAlias.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/NumTraits.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/PermutationMatrix.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/PlainObjectBase.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/Product.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/ProductEvaluators.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/Random.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/Redux.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/Ref.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/Replicate.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/ReturnByValue.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/Reverse.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/Select.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/SelfAdjointView.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/SelfCwiseBinaryOp.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/Solve.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/SolveTriangular.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/SolverBase.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/StableNorm.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/Stride.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/Swap.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/Transpose.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/Transpositions.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/TriangularMatrix.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/VectorBlock.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/VectorwiseOp.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/Visitor.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/arch/AVX/Complex.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/arch/AVX/MathFunctions.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/arch/AVX/PacketMath.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/arch/AVX/TypeCasting.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/arch/AVX512/MathFunctions.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/arch/AVX512/PacketMath.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/arch/AltiVec/Complex.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/arch/AltiVec/MathFunctions.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/arch/AltiVec/PacketMath.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/arch/CUDA/Complex.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/arch/CUDA/Half.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/arch/CUDA/MathFunctions.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/arch/CUDA/PacketMath.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/arch/CUDA/PacketMathHalf.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/arch/CUDA/TypeCasting.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/arch/Default/ConjHelper.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/arch/Default/Settings.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/arch/NEON/Complex.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/arch/NEON/MathFunctions.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/arch/NEON/PacketMath.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/arch/SSE/Complex.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/arch/SSE/MathFunctions.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/arch/SSE/PacketMath.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/arch/SSE/TypeCasting.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/arch/ZVector/Complex.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/arch/ZVector/MathFunctions.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/arch/ZVector/PacketMath.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/functors/AssignmentFunctors.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/functors/BinaryFunctors.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/functors/NullaryFunctors.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/functors/StlFunctors.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/functors/TernaryFunctors.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/functors/UnaryFunctors.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/products/GeneralBlockPanelKernel.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/products/GeneralMatrixMatrix.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/products/GeneralMatrixMatrixTriangular.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/products/GeneralMatrixMatrixTriangular_BLAS.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/products/GeneralMatrixMatrix_BLAS.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/products/GeneralMatrixVector.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/products/GeneralMatrixVector_BLAS.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/products/Parallelizer.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/products/SelfadjointMatrixMatrix.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/products/SelfadjointMatrixMatrix_BLAS.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/products/SelfadjointMatrixVector.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/products/SelfadjointMatrixVector_BLAS.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/products/SelfadjointProduct.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/products/SelfadjointRank2Update.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/products/TriangularMatrixMatrix.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/products/TriangularMatrixMatrix_BLAS.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/products/TriangularMatrixVector.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/products/TriangularMatrixVector_BLAS.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/products/TriangularSolverMatrix.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/products/TriangularSolverMatrix_BLAS.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/products/TriangularSolverVector.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/util/BlasUtil.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/util/Constants.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/util/DisableStupidWarnings.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/util/ForwardDeclarations.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/util/MKL_support.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/util/Macros.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/util/Memory.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/util/Meta.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/util/NonMPL2.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/util/ReenableStupidWarnings.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/util/StaticAssert.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Core/util/XprHelper.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Eigenvalues/ComplexEigenSolver.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Eigenvalues/ComplexSchur.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Eigenvalues/ComplexSchur_LAPACKE.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Eigenvalues/EigenSolver.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Eigenvalues/GeneralizedSelfAdjointEigenSolver.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Eigenvalues/HessenbergDecomposition.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Eigenvalues/RealQZ.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Eigenvalues/RealSchur.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Eigenvalues/RealSchur_LAPACKE.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Eigenvalues/SelfAdjointEigenSolver.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Eigenvalues/SelfAdjointEigenSolver_LAPACKE.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Eigenvalues/Tridiagonalization.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Geometry/AlignedBox.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Geometry/AngleAxis.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Geometry/EulerAngles.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Geometry/Homogeneous.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Geometry/Hyperplane.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Geometry/OrthoMethods.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Geometry/ParametrizedLine.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Geometry/Quaternion.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Geometry/Rotation2D.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Geometry/RotationBase.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Geometry/Scaling.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Geometry/Transform.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Geometry/Translation.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Geometry/Umeyama.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Geometry/arch/Geometry_SSE.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Householder/BlockHouseholder.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Householder/Householder.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Householder/HouseholderSequence.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/IterativeLinearSolvers/BasicPreconditioners.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/IterativeLinearSolvers/BiCGSTAB.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/IterativeLinearSolvers/ConjugateGradient.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/IterativeLinearSolvers/IncompleteCholesky.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/IterativeLinearSolvers/IncompleteLUT.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/IterativeLinearSolvers/IterativeSolverBase.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/IterativeLinearSolvers/LeastSquareConjugateGradient.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/IterativeLinearSolvers/SolveWithGuess.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/Jacobi/Jacobi.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/LU/Determinant.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/LU/FullPivLU.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/LU/InverseImpl.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/LU/PartialPivLU.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/LU/PartialPivLU_LAPACKE.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/LU/arch/Inverse_SSE.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/MetisSupport/MetisSupport.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/OrderingMethods/Amd.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/OrderingMethods/Eigen_Colamd.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/OrderingMethods/Ordering.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/PaStiXSupport/PaStiXSupport.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/PardisoSupport/PardisoSupport.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/QR/ColPivHouseholderQR.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/QR/ColPivHouseholderQR_LAPACKE.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/QR/CompleteOrthogonalDecomposition.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/QR/FullPivHouseholderQR.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/QR/HouseholderQR.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/QR/HouseholderQR_LAPACKE.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/SPQRSupport/SuiteSparseQRSupport.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/SVD/BDCSVD.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/SVD/JacobiSVD.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/SVD/JacobiSVD_LAPACKE.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/SVD/SVDBase.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/SVD/UpperBidiagonalization.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/SparseCholesky/SimplicialCholesky.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/SparseCholesky/SimplicialCholesky_impl.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/SparseCore/AmbiVector.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/SparseCore/CompressedStorage.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/SparseCore/ConservativeSparseSparseProduct.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/SparseCore/MappedSparseMatrix.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/SparseCore/SparseAssign.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/SparseCore/SparseBlock.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/SparseCore/SparseColEtree.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/SparseCore/SparseCompressedBase.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/SparseCore/SparseCwiseBinaryOp.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/SparseCore/SparseCwiseUnaryOp.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/SparseCore/SparseDenseProduct.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/SparseCore/SparseDiagonalProduct.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/SparseCore/SparseDot.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/SparseCore/SparseFuzzy.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/SparseCore/SparseMap.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/SparseCore/SparseMatrix.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/SparseCore/SparseMatrixBase.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/SparseCore/SparsePermutation.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/SparseCore/SparseProduct.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/SparseCore/SparseRedux.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/SparseCore/SparseRef.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/SparseCore/SparseSelfAdjointView.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/SparseCore/SparseSolverBase.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/SparseCore/SparseSparseProductWithPruning.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/SparseCore/SparseTranspose.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/SparseCore/SparseTriangularView.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/SparseCore/SparseUtil.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/SparseCore/SparseVector.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/SparseCore/SparseView.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/SparseCore/TriangularSolver.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/SparseLU/SparseLU.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/SparseLU/SparseLUImpl.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/SparseLU/SparseLU_Memory.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/SparseLU/SparseLU_Structs.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/SparseLU/SparseLU_SupernodalMatrix.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/SparseLU/SparseLU_Utils.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/SparseLU/SparseLU_column_bmod.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/SparseLU/SparseLU_column_dfs.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/SparseLU/SparseLU_copy_to_ucol.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/SparseLU/SparseLU_gemm_kernel.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/SparseLU/SparseLU_heap_relax_snode.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/SparseLU/SparseLU_kernel_bmod.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/SparseLU/SparseLU_panel_bmod.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/SparseLU/SparseLU_panel_dfs.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/SparseLU/SparseLU_pivotL.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/SparseLU/SparseLU_pruneL.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/SparseLU/SparseLU_relax_snode.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/SparseQR/SparseQR.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/StlSupport/StdDeque.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/StlSupport/StdList.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/StlSupport/StdVector.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/StlSupport/details.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/SuperLUSupport/SuperLUSupport.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/UmfPackSupport/UmfPackSupport.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/misc/Image.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/misc/Kernel.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/misc/RealSvd2x2.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/misc/blas.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/misc/lapack.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/misc/lapacke.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/misc/lapacke_mangling.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/plugins/ArrayCwiseBinaryOps.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/plugins/ArrayCwiseUnaryOps.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/plugins/BlockMethods.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/plugins/CommonCwiseBinaryOps.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/plugins/CommonCwiseUnaryOps.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/plugins/MatrixCwiseBinaryOps.h">
+			<Option target="MyBot"/>
+		</Unit>
+		<Unit filename="/home/itq/CLionProjects/halite-competition/Eigen/src/plugins/MatrixCwiseUnaryOps.h">
+			<Option target="MyBot"/>
+		</Unit>
 		<Unit filename="/home/itq/CLionProjects/halite-competition/MyBot.cpp">
 			<Option target="MyBot"/>
 		</Unit>

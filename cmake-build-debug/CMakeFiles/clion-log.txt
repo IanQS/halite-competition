@@ -1,4 +1,4 @@
 /home/itq/clion/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/itq/CLionProjects/halite-competition
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/itq/CLionProjects/halite-competition/cmake-build-debug
+-- Build files have been written to: /home/itq/CLionProjects/halite-competition

@@ -16,14 +16,13 @@
 - [X] increase the threshold before they flip
     - by the time they get back the amt is very low
     
-    
-- [ ] heuristics
-    - running into issue of 
-    > entity X was directed to use Y halite to move DIRECTION, but only Z halite was available
-    
-    
 - [ ] Don't spawn too many
     - dependent on map size?
+    
+    
+- [ ] agents don't seem to drop off halite nearing end of game. 
+    - look up terminating condition
+    - if hit, force all agents to return
 
 ## Pre-planning
 
