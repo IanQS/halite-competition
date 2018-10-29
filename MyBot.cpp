@@ -29,6 +29,7 @@ int main(int argc, char* argv[]) {
     const int JOURNEY_BACK_CONST = 450;
     const int JOURNEY_OUT_CONST = 250;
     const int TURN_NUM_CHECK = 200;
+    const int RETURN_HYPERPARAM = 15;
 
 
     unsigned  int rng_seed = get_seed(argc, argv);
@@ -38,6 +39,9 @@ int main(int argc, char* argv[]) {
     // At this point "game" variable is populated with initial map data.
     // This is a good place to do computationally expensive start-up pre-processing.
     // As soon as you call "ready" function below, the 2 second per turn timer will start.
+    const std::array<int, 2> MAP_LIMITS = game.game_map->min_turn();
+    const int LAST_CHANCE = MAP_LIMITS[1] - RETURN_HYPERPARAM;
+    const int MAP_SIZE = MAP_LIMITS[0];
     game.ready("MyCppBot");
 
     log::log("Successfully created bot! My Player ID is " + to_string(game.my_id) + ". Bot rng seed is " + to_string(rng_seed) + ".");
@@ -61,18 +65,22 @@ int main(int argc, char* argv[]) {
         // this way, we can remove a key-value from the ships_in_play (if converted to depot or smth)
         std::unordered_map<EntityId, std::shared_ptr<Ship>> ships_in_play = me->ships;
 
-        log::log("Shipyards: {}" + me->shipyard->position.to_string());
+
         for (const auto& dropoff: me->dropoffs){
             log::log("Depots: {}" + dropoff.second->position.to_string());
         }
-
-
 
         // Game logic
         for (const auto& ship_iterator : ships_in_play) {
             shared_ptr<Ship> ship = ship_iterator.second;
 
-
+            // Force all the ships to go back
+            if (game.turn_number >= LAST_CHANCE){
+                Direction go_back = game_map->naive_navigate(ship, me->shipyard->position);
+                command_queue.push_back(ship->move(go_back));
+                ship_status[ship] = true;
+                continue;
+            }
             if (ship_status[ship] || ship->has_enough(journey_back_threshold)){
                 if (ship->halite >= journey_out_threshold){
                     Direction go_back = game_map->naive_navigate(ship, me->shipyard->position);

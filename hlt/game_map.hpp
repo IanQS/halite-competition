@@ -28,6 +28,21 @@ namespace hlt {
             return at(entity->position);
         }
 
+        const std::array<int, 2> min_turn(){
+            const int map_size = this->width;
+            if (map_size == 32){
+                return {32, 401};
+            } else if (map_size == 40){
+                return {40, 426};
+            } else if (map_size == 48){
+                return {48, 451};
+            } else if (map_size == 56){
+                return {56, 476};
+            } else {
+                return {64, 501};
+            }
+        }
+
         int calculate_distance(const Position& source, const Position& target) {
             const auto& normalized_source = normalize(source);
             const auto& normalized_target = normalize(target);

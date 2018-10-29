@@ -19,10 +19,11 @@
 - [ ] Don't spawn too many
     - dependent on map size?
     
-    
 - [ ] agents don't seem to drop off halite nearing end of game. 
     - look up terminating condition
     - if hit, force all agents to return
+    
+- [ ] merge depots and shipyards for depositing
 
 ## Pre-planning
 
