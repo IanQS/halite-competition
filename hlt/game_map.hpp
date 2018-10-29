@@ -88,18 +88,23 @@ namespace hlt {
             return possible_moves;
         }
 
-        Direction naive_navigate(std::shared_ptr<Ship> ship, const Position& destination) {
+        Direction naive_navigate(std::shared_ptr<Ship> ship, const Position& destination,
+                const bool safe = true) {
             // get_unsafe_moves normalizes for us
             for (auto direction : get_unsafe_moves(ship->position, destination)) {
                 Position target_pos = ship->position.directional_offset(direction);
-                if (!at(target_pos)->is_occupied()) {
-                    at(target_pos)->mark_unsafe(ship);
+                if (safe){
+                    if (!at(target_pos)->is_occupied()) {
+                        at(target_pos)->mark_unsafe(ship);
+                        return direction;
+                    }
+                } else {
                     return direction;
                 }
             }
-
             return Direction::STILL;
         }
+
 
         Direction greedy_safe_move(const std::shared_ptr<Ship>& ship, const int scale = 1,
                 const int min_halite = 250){

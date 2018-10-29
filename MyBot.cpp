@@ -76,7 +76,12 @@ int main(int argc, char* argv[]) {
 
             // Force all the ships to go back
             if (game.turn_number >= LAST_CHANCE){
-                Direction go_back = game_map->naive_navigate(ship, me->shipyard->position);
+                Direction go_back;
+                if (game_map->calculate_distance(ship->position, me->shipyard->position) == 1){
+                     go_back = game_map->naive_navigate(ship, me->shipyard->position, false);
+                } else{
+                    go_back = game_map->naive_navigate(ship, me->shipyard->position);
+                }
                 command_queue.push_back(ship->move(go_back));
                 ship_status[ship] = true;
                 continue;
