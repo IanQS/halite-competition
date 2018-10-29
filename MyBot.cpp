@@ -29,7 +29,7 @@ int main(int argc, char* argv[]) {
     const int JOURNEY_BACK_CONST = 450;
     const int JOURNEY_OUT_CONST = 250;
     const int TURN_NUM_CHECK = 200;
-    const int RETURN_HYPERPARAM = 15;
+    const int RETURN_HYPERPARAM = 20;
 
 
     unsigned  int rng_seed = get_seed(argc, argv);
@@ -41,7 +41,7 @@ int main(int argc, char* argv[]) {
     // As soon as you call "ready" function below, the 2 second per turn timer will start.
     const std::array<int, 2> MAP_LIMITS = game.game_map->min_turn();
     const int LAST_CHANCE = MAP_LIMITS[1] - RETURN_HYPERPARAM;
-    const int MAP_SIZE = MAP_LIMITS[0];
+    //const int MAP_SIZE = MAP_LIMITS[0];
     game.ready("MyCppBot");
 
     log::log("Successfully created bot! My Player ID is " + to_string(game.my_id) + ". Bot rng seed is " + to_string(rng_seed) + ".");
